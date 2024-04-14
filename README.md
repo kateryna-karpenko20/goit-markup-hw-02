@@ -1,1 +1,3 @@
-# goit-markup-hw-02
+# my-first-project
+
+projgiects that I create while learning to program
