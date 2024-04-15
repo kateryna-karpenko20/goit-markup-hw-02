@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Web Studio</title>
 </head>
 <body>
     <header class="page-header">
+        <Web class="logo-type" href="./index.html">Web<span class="logo-studio">Studio</span></a>
         <nav class="main-nav">
-            <a href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
             <ul class="menu">
-                <li class="menu-item"><a href="#Studio">Studio</a></li>
-                <li class="menu-item"><a href="#Portfolio">Portfolio</a></li>
-                <li class="menu-item"><a href="#Contacts">Contacts</a></li>
+                <li><a class="menu-item-link" href="./index.html">Studio</a></li>
+                <li><a class="menu-item-link" href="">Portfolio</a></li>
+                <li><a class="menu-item-link" href="">Contacts</a></li>
             </ul>
         </nav>
         <address class="page-address">
             <ul class="menu">
-                <li class="menu-item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="menu-item"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a class="menu-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="menu-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
     <main>
         <section class="page-hero">
-            <h1 id="host-title">Effective Solutions for Your Business</h1>
+            <h1 class="host-title">Effective Solutions for Your Business</h1>
             <button class="button-block" type="button">Order Service</button>
         </section>
         <section class="page-benefits">
@@ -51,8 +53,8 @@
                     <p class="menu-item-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
-            </section>
-            <section class="section-team">
+        </section>
+        <section class="section-team">
                 <h2 class="main-title">Our Team</h2>
                 <ul class="menu">
                     <li class="menu-item">
@@ -76,37 +78,37 @@
                         <p class="menu-item-text">UI Designer</p>
                     </li>
              </ul>
-            </section>
+        </section>
         <section class="page-portfolio">
             <h2 class="main-title">Our Portfolio</h2>
             <ul class="menu">
             <li class="menu-item">
-                <img src="/images/img11.jpg" alt="photo Bankipage-ng App" width="360" height="300"/>
-                <h3 class="menu-item-title">Bankipage-ng App</h3>
+                <img src="./images/img11.jpg" alt="photo Bankipage-ng App" width="360" height="300"/>
+                <h3 class="menu-item-title">Bankipage App</h3>
                 <p class="menu-item-text">App</p>
             </li>
             <li class="menu-item">
-                <img src="/images/img12.jpg" alt="photo Cashless page-Payment" width="360" height="300"/>
-                <h3 class="menu-item-title">Cashless page-Payment</h3>
+                <img src="./images/img12.jpg" alt="photo Cashless page-Payment" width="360" height="300"/>
+                <h3 class="menu-item-title">Cashless Payment</h3>
                 <p class="menu-item-text">Marketing</p>
             </li>
             <li class="menu-item">
-                <img src="/images/img13.jpg" alt="photo Meditatipage-on App" width="360" height="300"/>
-                <h3 class="menu-item-title">Meditatipage-on App</h3>
+                <img src="./images/img13.jpg" alt="photo Meditatipage-on App" width="360" height="300"/>
+                <h3 class="menu-item-title">Meditation App</h3>
                 <p class="menu-item-text">App</p>
             </li>
             <li class="menu-item">
-                <img src="/images/img14.jpg" alt="photo Taxi Service" width="360" height="300"/>
+                <img src="./images/img14.jpg" alt="photo Taxi Service" width="360" height="300"/>
                 <h3 class="menu-item-title">Taxi Service</h3>
                 <p class="menu-item-text">Marketing</p>
             </li>
             <li class="menu-item">
-                <img src="/images/img15.jpg" alt="photo Screen Illustrations" width="360" height="300"/>
+                <img src="./images/img15.jpg" alt="photo Screen Illustrations" width="360" height="300"/>
                 <h3 class="menu-item-title">Screen Illustrations</h3>
                 <p class="menu-item-text">Design</p>
         </li>
             <li class="menu-item">
-                <img src="/images/img16.jpg" alt="photo Online Courses" width="360" height="300"/>
+                <img src="./images/img16.jpg" alt="photo Online Courses" width="360" height="300"/>
                 <h3 class="menu-item-title">Online Courses</h3>
                 <p class="menu-item-text">Marketing</p>
             </li>
@@ -114,7 +116,7 @@
         </section>
     </main>
     <footer class="page-footer">
-        <a href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+        <a class="logo-type" href="./index.html">Web<span class="logo-studio">Studio</span></a>
         <p class="footer-text">
             Increase the flow of customers and sales for your business with digital marketing &#38; growth solutions.
         </p>
