@@ -85,11 +85,11 @@ address {
 }
 
 .page-hero .button-block:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .page-hero .button-block:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .page-benefits .menu-item-title {
