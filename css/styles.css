@@ -70,7 +70,7 @@ address {
   background-color: #2e2f42;
 }
 
-.section-hero .host-title {
+.page-hero .host-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -79,7 +79,7 @@ address {
   text-align: center;
 }
 
-.section-hero .button-block {
+.page-hero .button-block {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -90,15 +90,15 @@ address {
   cursor: pointer;
 }
 
-.section-hero .button-block:hover {
+.page-hero .button-block:hover {
   color: #404bbf;
 }
 
-.section-hero .button-block:focus {
+.page-hero .button-block:focus {
   color: #404bbf;
 }
 
-.section-benefits .menu-item-title {
+.page-benefits .menu-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,7 +106,7 @@ address {
   color: #2e2f42;
 }
 
-.section-benefits .menu-item-text {
+.page-benefits .menu-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
